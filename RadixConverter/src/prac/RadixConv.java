@@ -140,11 +140,11 @@ public class RadixConv {
 		fromDecimalBox.add(Box.createHorizontalStrut(6));
 		fromDecimalBox.add(resultfield2);
 		
-		contentBox.add(new JLabel("Convert from chosen base to decimal"));
+		contentBox.add(new JLabel("Convert from chosen base to decimal:"));
 		contentBox.add(Box.createRigidArea(new Dimension(0, 10)));
 		contentBox.add(toDecimalBox);
 		contentBox.add(Box.createRigidArea(new Dimension(0, 30)));
-		contentBox.add(new JLabel("Convert from decimal to chosen base"));
+		contentBox.add(new JLabel("Convert from decimal to chosen base:"));
 		contentBox.add(Box.createRigidArea(new Dimension(0, 10)));
 		contentBox.add(fromDecimalBox);
 		mainPanel.add(contentBox);
