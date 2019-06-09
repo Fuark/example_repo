@@ -1,0 +1,1 @@
+First self-made program (with the help of Google and Stackoverflow obviously).
